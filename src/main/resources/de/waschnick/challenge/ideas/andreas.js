@@ -1,0 +1,2 @@
+Array.apply(null,Array(100)).map(function(z,n){return(n+1)%5||(n+1)%3?(n+1)%3?(n+1)%5?n+1:"Buzz":"Fizz":"FizzBuzz"}).map(function(z){console.log(z)});
+for(i=0;100>i++;){z=i%3||i%5?i%3?i%5?i:"Buzz":"Fizz":"FizzBuzz";console.log(z)}
